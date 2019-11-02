@@ -1,0 +1,39 @@
+#app{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2C3350;
+    margin-top: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.shopImage{
+    width: 75%;
+}
+
+.signout-btn{
+    float: right;
+    margin-left: 4px;
+}
+
+.router{
+    float: right;
+}
+
+.form-control{
+    margin: 10px 0 10px 0;
+}
+
+.signInOut{
+    padding: 0 25% 0 25%;
+}
+
+body.signin {
+    background: url("dist/fitness.jpg");
+}
+
+body.signup {
+    background: url("dist/fitness.jpg");
+}
