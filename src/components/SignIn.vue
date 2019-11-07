@@ -1,9 +1,12 @@
 <template>
     <div class="signInOut">
-        <h3 style="color: white">Sign In</h3>
-        <div class="form-group">
-            <input type="text" placeholder="email" class="form-control" v-model="email" />
-            <input type="password" placeholder="password" class="form-control" v-model="password">
+        <div class="navStyle pl-5"><p>Come With Me If You Want To Lift</p></div>
+        <div class="form-group pl-5 pt-5">
+            <h3 style="color: white">Sign In</h3>
+            <input type="text" placeholder="email" class="form-control col-lg-4 col-sm-8 pl-15" v-model="email" />
+            <br>
+            <input type="password" placeholder="password" class="form-control col-lg-4 col-sm-8 pl-15" v-model="password">
+            <br>
             <button class="btn btn-primary" @click="signIn">Sign In</button>
             <br>
             <p>{{error.message}}</p>

@@ -1,8 +1,8 @@
 <template>
-    <div class="col-md-4 eventStyle">
+    <div class="col-md-10 eventStyle">
         <div class="event-card">
             <h4 class="card-title">{{event.title}}</h4>
-            <p class="card-text">{{event.description}}</p>
+            <p class="card-text" >{{event.description}}</p>
         </div>
     </div>
 
@@ -12,6 +12,8 @@
     export default {
         props: ['event']
     }
+
+
 </script>
 
 <style>

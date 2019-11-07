@@ -11,3 +11,7 @@ export const signOut = ({commit}) => {
 export const setEvents = ({commit}, events_payload) => {
     commit(types.SET_EVENTS, events_payload)
 }
+
+export const setMeals = ({commit}, meals_payload) => {
+    commit(types.SET_MEALS, meals_payload)
+}

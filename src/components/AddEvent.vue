@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="col-sm-10">
     <h4>Add a Workout <input type="checkbox" v-model="showForm"></h4>
     <div class="form" v-if="showForm">
         <div class="form-group">

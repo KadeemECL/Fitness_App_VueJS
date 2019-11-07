@@ -7,7 +7,8 @@ Vue.use(Vuex)
 
 const state = {
     user: {},
-    events: []
+    events: [],
+    meals: [],
 }
 
 export default new Vuex.Store({

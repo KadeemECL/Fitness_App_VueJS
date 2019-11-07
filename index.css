@@ -1,33 +1,25 @@
-#app{
-    font-family: 'Avenir', Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2C3350;
-    margin-top: 60px;
-    padding-left: 10%;
-    padding-right: 10%;
+/*Nav Style*/
+.navStyle{
+    height: 80px;
+    background: #2C3350;
+    color: white;
+    padding: 10px 10px 0 0;
+    line-height: 80px;
 }
 
-.shopImage{
-    width: 75%;
+.navLinks{
+    color: white;
 }
 
-.signout-btn{
-    float: right;
-    margin-left: 4px;
+.navLinks:hover{
+    color: white;
+    text-decoration: none;
 }
 
-.router{
-    float: right;
-}
-
-.form-control{
-    margin: 10px 0 10px 0;
-}
-
-.signInOut{
-    padding: 0 25% 0 25%;
+.signout{
+    background: transparent;
+    border: none;
+    color: white;
 }
 
 body.signin {
@@ -36,4 +28,17 @@ body.signin {
 
 body.signup {
     background: url("dist/fitness.jpg");
+}
+
+/*Home Style*/
+.homeLink{
+    background: #2C3350;
+    border-radius: 5px;
+    color: white;
+    padding: 15%;
+}
+
+.homeLink:hover{
+    color: white;
+    text-decoration: none;
 }

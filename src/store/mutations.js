@@ -11,6 +11,10 @@ export const mutations = {
 
     [types.SET_EVENTS] (state, events_payload){
         state.events = events_payload
-    }
+    },
+
+    [types.SET_MEALS] (state, meals_payload){
+        state.meals = meals_payload
+    },
 
 }
