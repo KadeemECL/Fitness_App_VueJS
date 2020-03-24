@@ -1,7 +1,7 @@
 /*Nav Style*/
 .navStyle{
     height: 80px;
-    background: #2C3350;
+    background: #004aad;
     color: white;
     padding: 10px 10px 0 0;
     line-height: 80px;
@@ -23,11 +23,30 @@
 }
 
 body.signin {
-    background: url("dist/fitness.jpg");
+    background-image: url("dist/fitnessbg.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-contents{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px 3px lightgrey;
 }
 
 body.signup {
-    background: url("dist/fitness.jpg");
+    background-image: url("dist/fitnessbg.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.shop {
+    background-image: url("dist/fitnessbg2.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*Home Style*/

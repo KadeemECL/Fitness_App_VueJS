@@ -42,7 +42,7 @@
 
     export default {
         beforeCreate: function() {
-            document.body.className = 'form';
+            document.body.className = 'shop';
         },
         methods: {
             signOut() {

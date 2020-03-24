@@ -1,11 +1,13 @@
 <template>
     <div class="signInOut">
-        <div class="navStyle pl-5"><p>Come With Me If You Want To Lift</p></div>
-        <div class="form-group pl-5 pt-5">
-            <h3 style="color: white">Sign In</h3>
-            <input type="text" placeholder="email" class="form-control col-lg-4 col-sm-8 pl-15" v-model="email" />
+<!--        <div class="navStyle pl-5"><p>Come With Me If You Want To Lift</p></div>-->
+        <div class="form-group p-5 col-lg-5 col-md-6 col-sm-10 mt-5 ml-5 form-contents">
+            <h4>Come With Me If You Want To Lift</h4>
+
+            <p style="color: black">Sign in to your account</p>
+            <input type="text" placeholder="email" class="form-control col-lg-6 col-sm-8 pl-15" v-model="email" />
             <br>
-            <input type="password" placeholder="password" class="form-control col-lg-4 col-sm-8 pl-15" v-model="password">
+            <input type="password" placeholder="password" class="form-control col-lg-6 col-sm-8 pl-15" v-model="password">
             <br>
             <button class="btn btn-primary" @click="signIn">Sign In</button>
             <br>
